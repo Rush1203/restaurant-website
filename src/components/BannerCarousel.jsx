@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 
 const images = [
-  "src/images/banner 1.jpg",
-  "src/images/banner2.jpg",
-  "src/images/banner3.jpg",
+  "/images/banner1.jpg",
+  "/images/banner2.jpg",
+  "/images/banner3.jpg",
 ];
 
 export default function BannerCarousel() {

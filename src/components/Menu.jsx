@@ -11,7 +11,7 @@ const menuData = [
     price: 260,
     category: "Main Course",
     featured: true,
-    image: "src/images/paneer-butter-masala.jpg",
+    image: "images/paneer-butter-masala.jpg",///images/banner1.jpg
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const menuData = [
     price: 240,
     category: "Main Course",
     featured: true,
-    image: "src/images/veg biryani.jpg",
+    image: "images/veg biryani.jpg",
   },
 
   //  STARTERS
@@ -29,7 +29,7 @@ const menuData = [
     price: 120,
     category: "Starters",
     featured: false,
-    image: "src/images/spring roll.jpg",
+    image: "images/spring roll.jpg",
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const menuData = [
     price: 140,
     category: "Starters",
     featured: false,
-    image: "src/images/crispy corn.jpg",
+    image: "images/crispy corn.jpg",
   },
   {
     id: 5,
@@ -45,7 +45,7 @@ const menuData = [
     price: 180,
     category: "Starters",
     featured: false,
-    image: "src/images/paneer tika.jpg",
+    image: "images/paneer tika.jpg",
   },
 
   //  MAIN COURSE
@@ -55,7 +55,7 @@ const menuData = [
     price: 190,
     category: "Main Course",
     featured: false,
-    image: "src/images/dal tadka.jpg",
+    image: "images/dal tadka.jpg",
   },
   {
     id: 7,
@@ -63,7 +63,7 @@ const menuData = [
     price: 200,
     category: "Main Course",
     featured: false,
-    image: "src/images/mix veg curry.jpg",
+    image: "images/mix veg curry.jpg",
   },
   {
     id: 8,
@@ -71,7 +71,7 @@ const menuData = [
     price: 40,
     category: "Main Course",
     featured: false,
-    image: "src/images/butter nan.jpg",
+    image: "images/butter nan.jpg",
   },
 
   //  DRINKS
@@ -81,7 +81,7 @@ const menuData = [
     price: 90,
     category: "Drinks",
     featured: false,
-    image: "src/images/cold coffee.jpg",
+    image: "images/cold coffee.jpg",
   },
   {
     id: 10,
@@ -89,7 +89,7 @@ const menuData = [
     price: 70,
     category: "Drinks",
     featured: false,
-    image: "src/images/limbu soda.jpg",
+    image: "images/limbu soda.jpg",
   },
 
   //  DESSERT
@@ -107,7 +107,7 @@ const menuData = [
     price: 100,
     category: "Dessert",
     featured: false,
-    image: "src/images/ice cream.jpg",
+    image: "images/ice cream.jpg",
   },
 ];
 
