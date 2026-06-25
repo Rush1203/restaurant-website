@@ -4,7 +4,7 @@ A restaurant ordering web app built with React and Redux Toolkit. Browse a categ
 
 ## Live demo
 
-[Add your deployed link here]
+https://rush1203restaurant.netlify.app/
 
 ## Features
 
@@ -27,27 +27,6 @@ A restaurant ordering web app built with React and Redux Toolkit. Browse a categ
 - **lucide-react** for icons
 - **localStorage** for persisting cart, favorites, and order history across sessions
 
-## Project structure
-
-```
-src/
-├── app/
-│   └── store.js          # Redux store configuration
-├── features/
-│   └── cartSlice.js       # Cart, favorites, and order history logic
-├── components/
-│   ├── Navbar.jsx
-│   ├── Menu.jsx
-│   ├── MenuItem.jsx
-│   ├── SearchFilter.jsx
-│   ├── BannerCarousel.jsx
-│   ├── Cart.jsx
-│   ├── Favorites.jsx
-│   ├── Contact.jsx
-│   └── Footer.jsx
-├── App.jsx
-└── main.jsx
-```
 
 ## Getting started
 
@@ -63,12 +42,4 @@ npm install
 npm run dev
 ```
 
-## What I learned / built
 
-This project was a chance to work with Redux Toolkit for non-trivial state — managing cart quantities, a separate favorites list, and order history, all kept in sync with localStorage so nothing is lost on refresh. It also covers client-side routing across multiple pages and a fully responsive nav with a mobile drawer.
-
-## Possible improvements
-
-- Connect to a real backend instead of static menu data
-- Add user authentication for personalized order history
-- Add quantity-based stock limits
